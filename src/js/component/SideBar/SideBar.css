@@ -1,0 +1,21 @@
+.sidebar-main {
+    height: 100%;
+    width: 100px;
+    /*position: absolute;*/
+    z-index: 1;
+    left: 0;
+    background-color: #e9ebee;
+    padding-top: 30px;
+}
+
+.sidebar-main  a {
+    width:auto;
+    padding: 6px 8px 6px 16px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 30px;
+    color: black;
+    display: block;
+    font-family: ProximaNovaRegular;
+}

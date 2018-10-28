@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Side-container{
+  float: right;
+  border-left: 1px solid blue;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
+  padding: 0px;
+}
+
+
+.side-top{
+	height:300px;
+	overflow: scroll;
+	overflow-x: hidden;
+
+}
+
+.side-top::-webkit-scrollbar {
+	width:0px;
+	display: none;
+
+}
+
+
+.side-bottom{
+	height:300px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.side-bottom::-webkit-scrollbar{
+	width:0px;
+	overflow:hidden;
+}
+
+.layout-3{
+	height:600px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.layout-3::-webkit-scrollbar {
+	width: 0px;
+	overflow: hidden;
+}
+
+.middle-container {
+	padding-right:0px;
+}
+
+.middle-container-bottom{
+	height:600px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.middle-container-bottom::-webkit-scrollbar {
+	overflow: hidden;
+}
+

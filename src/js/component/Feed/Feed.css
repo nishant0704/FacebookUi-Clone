@@ -1,0 +1,79 @@
+.feed-main-container{
+	margin-top: 10px;
+	
+}
+.feed-main-wrapper{
+	width: 94%;
+	padding-top: 20px;
+	height: 200px;
+	margin-left: 8px;
+	margin-right: 8px;
+	background-color: white;
+	border:1px solid #ced0d4;
+	border-radius: 2px;
+}
+.feed-group-image{
+	height: 120px;
+	width: 100%;
+	cursor: pointer;
+	background-color: cyan;
+}
+.feed-group-name{
+	height: 10px;
+	width: 100%;
+
+}
+.feed-group-name-wrapper{
+	
+	display: table;
+	line-height: 50px;
+	width: 96%;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+}
+.feed-name-container{
+	display: table-cell;
+	width: 80%;
+	line-height: 20px;
+	vertical-align: middle;
+	text-align: left;
+}
+.adfeed-group-name{
+	font-family: sans-serif;
+	width: auto;
+	font-size:14px; 
+	color: #365899;
+	letter-spacing: 0;
+	cursor: pointer;
+
+
+}
+.adfeed-total-members{
+	font-family: sans-serif;
+	font-size: 10px;
+	color:#90949c;
+	letter-spacing: 0;
+}
+.adfeed-button-container{
+	display: table-cell;
+	/*vertical-align: middle;*/
+	 
+}
+.adfeed-join-button{
+	height: 40px;
+	width: 60px;
+	background-color: #f6f7f9;
+	border:1px solid #ced0d4;;;
+	border-radius: 2px;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 0;
+	color: #4b4f56;
+
+}
+.adfeed-join-button:hover{
+	background-color: #e9ebee;
+}
